@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Không gian số tuyên truyền | 50 năm Thành phố mang tên Bác</title>
+  <meta name="description" content="Không gian số tuyên truyền kỷ niệm 50 năm Thành phố Sài Gòn - Gia Định chính thức mang tên Chủ tịch Hồ Chí Minh." />
+  <style>
+    :root{
+      --red:#C8102E; --yellow:#FFD400; --blue:#1565C0; --green:#43A047;
+      --white:#ffffff; --text:#1f2937; --muted:#6b7280; --bg:#f8fafc;
+      --radius:22px; --shadow:0 12px 30px rgba(0,0,0,.12);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,"Roboto","Be Vietnam Pro",sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    .nav{position:sticky;top:0;z-index:99;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);box-shadow:0 2px 12px rgba(0,0,0,.08)}
+    .nav-inner{max-width:980px;margin:auto;display:flex;gap:10px;overflow-x:auto;padding:10px 14px}
+    .nav a{white-space:nowrap;font-size:14px;padding:8px 12px;border-radius:999px;background:#f1f5f9;color:#334155}
+    .nav a:hover{background:var(--red);color:white}
+    .hero{min-height:92vh;color:white;display:flex;align-items:center;padding:36px 18px;background:
+      linear-gradient(135deg,rgba(200,16,46,.92),rgba(21,101,192,.86)),
+      radial-gradient(circle at top right,var(--yellow),transparent 35%)}
+    .wrap{max-width:980px;margin:auto;width:100%}
+    .badge{display:inline-block;background:rgba(255,255,255,.18);padding:8px 14px;border-radius:999px;font-weight:700;margin-bottom:18px}
+    h1{font-size:clamp(34px,8vw,72px);line-height:1.05;margin:0 0 16px;font-weight:900}
+    h2{font-size:clamp(28px,6vw,48px);line-height:1.15;margin:0 0 14px;color:var(--red)}
+    h3{font-size:22px;margin:0 0 8px}
+    .lead{font-size:20px;max-width:720px}
+    .btn{display:inline-block;margin-top:20px;background:var(--yellow);color:#111827;padding:14px 20px;border-radius:999px;font-weight:800;box-shadow:var(--shadow)}
+    section{padding:58px 18px}
+    .card{background:white;border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);margin:16px 0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .timeline{display:grid;gap:12px;margin:22px 0}
+    .time{display:flex;gap:14px;align-items:flex-start;background:white;border-radius:18px;padding:16px;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+    .year{min-width:82px;font-weight:900;color:var(--red)}
+    .icon{font-size:34px}
+    .callout{border-left:6px solid var(--yellow);background:#fff8d6;padding:18px;border-radius:18px;margin:18px 0}
+    .message{font-weight:900;font-size:24px;color:var(--blue);margin-top:20px}
+    .split{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .visual{min-height:180px;border-radius:24px;display:flex;align-items:center;justify-content:center;font-size:64px;color:white;background:linear-gradient(135deg,var(--blue),var(--green));box-shadow:var(--shadow)}
+    .pillbox{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:14px;margin-top:20px}
+    .pill{background:white;border-radius:22px;padding:18px;text-align:center;box-shadow:0 8px 22px rgba(0,0,0,.08);font-weight:800}
+    .commit{background:linear-gradient(135deg,var(--red),#8b001a);color:white;border-radius:28px;padding:28px;box-shadow:var(--shadow)}
+    .commit h2{color:white}
+    .check{background:rgba(255,255,255,.14);padding:12px 14px;border-radius:16px;margin:8px 0}
+    footer{background:#111827;color:white;padding:36px 18px}
+    .small{font-size:14px;color:#e5e7eb}
+    .source a{color:#bfdbfe;display:block;margin:6px 0;font-size:14px}
+    .top{position:fixed;right:16px;bottom:16px;background:var(--red);color:white;border:none;border-radius:50%;width:48px;height:48px;font-size:22px;box-shadow:var(--shadow)}
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#home">Trang chủ</a>
+    <a href="#history">Dấu son</a>
+    <a href="#growth">50 năm</a>
+    <a href="#local">Trung Mỹ Tây</a>
+    <a href="#culture">Khu phố văn hóa</a>
+    <a href="#commit">Cam kết</a>
+    <a href="#more">Tìm hiểu thêm</a>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="wrap">
+    <div class="badge">KHÔNG GIAN SỐ TUYÊN TRUYỀN</div>
+    <h1>50 NĂM<br>THÀNH PHỐ MANG TÊN BÁC</h1>
+    <p class="lead">Từ Gia Định xưa đến phường Trung Mỹ Tây hôm nay. Một hành trình ngắn gọn, trực quan, dễ hiểu dành cho người dân khi quét mã QR từ infographic.</p>
+    <a class="btn" href="#history">Bắt đầu khám phá →</a>
+  </div>
+</header>
+
+<section id="history">
+  <div class="wrap">
+    <h2>Dấu son lịch sử</h2>
+    <div class="split">
+      <div class="card">
+        <h3>Từ Gia Định đến Thành phố Hồ Chí Minh</h3>
+        <p>Năm 1698, vùng đất Gia Định được xác lập, đặt nền móng cho quá trình hình thành đô thị Sài Gòn. Sau ngày đất nước thống nhất, ngày 02/7/1976, Quốc hội quyết định chính thức đặt tên Thành phố Sài Gòn – Gia Định là Thành phố Hồ Chí Minh.</p>
+        <div class="callout"><b>Bạn có biết?</b><br>Tên gọi Thành phố Hồ Chí Minh thể hiện tình cảm, lòng biết ơn và niềm tự hào của nhân dân đối với Chủ tịch Hồ Chí Minh.</div>
+      </div>
+      <div class="visual">🇻🇳</div>
+    </div>
+    <div class="timeline">
+      <div class="time"><div class="year">1698</div><div>Gia Định được xác lập.</div></div>
+      <div class="time"><div class="year">1975</div><div>Sài Gòn – Gia Định bước vào giai đoạn mới sau thống nhất.</div></div>
+      <div class="time"><div class="year">02/7/1976</div><div>Thành phố chính thức mang tên Chủ tịch Hồ Chí Minh.</div></div>
+      <div class="time"><div class="year">2026</div><div>Kỷ niệm 50 năm Thành phố mang tên Bác.</div></div>
+    </div>
+    <div class="message">Lịch sử là nền tảng của tương lai.</div>
+  </div>
+</section>
+
+<section id="growth">
+  <div class="wrap">
+    <h2>Hành trình 50 năm phát triển</h2>
+    <p>Trong 50 năm qua, Thành phố Hồ Chí Minh không ngừng đổi mới, phát triển và khẳng định vai trò trung tâm lớn về kinh tế, văn hóa, giáo dục, khoa học – công nghệ của cả nước.</p>
+    <div class="grid">
+      <div class="card"><div class="icon">🏛️</div><h3>1976</h3><p>Thành phố mang tên Bác.</p></div>
+      <div class="card"><div class="icon">🌱</div><h3>1986</h3><p>Cùng cả nước bước vào thời kỳ Đổi mới.</p></div>
+      <div class="card"><div class="icon">🏙️</div><h3>1997</h3><p>Thành lập Quận 12.</p></div>
+      <div class="card"><div class="icon">🚇</div><h3>2000–2020</h3><p>Đô thị hóa, hạ tầng và đời sống phát triển.</p></div>
+      <div class="card"><div class="icon">💻</div><h3>2025</h3><p>Sắp xếp đơn vị hành chính, thúc đẩy quản trị hiện đại.</p></div>
+      <div class="card"><div class="icon">🎉</div><h3>2026</h3><p>Kỷ niệm 50 năm Thành phố mang tên Bác.</p></div>
+    </div>
+    <div class="callout"><b>Bạn có biết?</b><br>Nghị quyết 31-NQ/TW đặt mục tiêu xây dựng Thành phố Hồ Chí Minh văn minh, hiện đại, nghĩa tình, năng động và sáng tạo.</div>
+    <div class="message">50 năm phát triển – Tiếp tục vươn xa.</div>
+  </div>
+</section>
+
+<section id="local">
+  <div class="wrap">
+    <h2>Phường Trung Mỹ Tây</h2>
+    <div class="split">
+      <div class="card">
+        <h3>Ngày ấy</h3>
+        <p>Trung Mỹ Tây từng là vùng đất ven đô, gắn với không gian làng xóm, kênh rạch, ruộng vườn và đời sống cộng đồng gần gũi.</p>
+      </div>
+      <div class="card">
+        <h3>Hôm nay</h3>
+        <p>Trung Mỹ Tây phát triển theo hướng đô thị năng động, với khu dân cư, trường học, tuyến đường, cây xanh và các dịch vụ phục vụ người dân.</p>
+      </div>
+    </div>
+    <div class="timeline">
+      <div class="time"><div class="year">1997</div><div>Quận 12 được thành lập; phường Trung Mỹ Tây trở thành một phường thuộc Quận 12.</div></div>
+      <div class="time"><div class="year">2025</div><div>Phường Trung Mỹ Tây mới được hình thành sau sắp xếp đơn vị hành chính cấp xã.</div></div>
+      <div class="time"><div class="year">2026</div><div>Đồng hành cùng Thành phố trong các hoạt động kỷ niệm 50 năm mang tên Bác.</div></div>
+    </div>
+    <div class="callout"><b>Bạn có biết?</b><br>Câu chuyện của Trung Mỹ Tây là hình ảnh thu nhỏ của quá trình đô thị hóa và phát triển cộng đồng tại Thành phố Hồ Chí Minh.</div>
+    <div class="message">Địa phương phát triển – Người dân đồng hành.</div>
+  </div>
+</section>
+
+<section id="culture">
+  <div class="wrap">
+    <h2>Khu phố Văn hóa</h2>
+    <p>Khu phố văn hóa bắt đầu từ những hành động gần gũi trong đời sống hằng ngày: giữ vệ sinh, bảo vệ môi trường, sống đoàn kết, giữ an ninh trật tự và cùng nhau xây dựng nếp sống văn minh.</p>
+    <div class="pillbox">
+      <div class="pill">♻️<br>Phân loại rác</div>
+      <div class="pill">🌳<br>Môi trường xanh</div>
+      <div class="pill">🚔<br>An ninh trật tự</div>
+      <div class="pill">🏡<br>Gia đình văn hóa</div>
+      <div class="pill">🤝<br>Đoàn kết cộng đồng</div>
+      <div class="pill">💻<br>Chuyển đổi số</div>
+    </div>
+    <div class="callout"><b>Bạn có biết?</b><br>Mỗi việc làm nhỏ như không xả rác, nhắc nhau giữ trật tự, giúp đỡ hàng xóm đều góp phần xây dựng khu phố văn hóa.</div>
+    <div class="message">Mỗi người dân – Một hành động đẹp.</div>
+  </div>
+</section>
+
+<section id="commit">
+  <div class="wrap">
+    <div class="commit">
+      <h2>Cam kết hành động</h2>
+      <p><b>Tôi là công dân Trung Mỹ Tây.</b></p>
+      <div class="check">☑ Không xả rác nơi công cộng.</div>
+      <div class="check">☑ Phân loại rác tại nguồn.</div>
+      <div class="check">☑ Giữ gìn an ninh trật tự.</div>
+      <div class="check">☑ Ứng xử văn minh, nghĩa tình.</div>
+      <div class="check">☑ Chung tay xây dựng Khu phố Văn hóa.</div>
+      <h3>Hành động nhỏ – Giá trị lớn.</h3>
+    </div>
+  </div>
+</section>
+
+<section id="more">
+  <div class="wrap">
+    <h2>Tìm hiểu thêm</h2>
+    <div class="grid">
+      <div class="card"><h3>📚 Văn bản</h3><p>Nghị quyết đổi tên Thành phố Sài Gòn – Gia Định thành Thành phố Hồ Chí Minh.</p></div>
+      <div class="card"><h3>🏙️ Thành phố</h3><p>Định hướng phát triển Thành phố Hồ Chí Minh đến năm 2030, tầm nhìn 2045.</p></div>
+      <div class="card"><h3>🏘️ Địa phương</h3><p>Thông tin về Quận 12, phường Trung Mỹ Tây và quá trình sắp xếp đơn vị hành chính.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <h3>Không gian số tuyên truyền</h3>
+    <p>50 năm Thành phố mang tên Bác<br>Khu phố …, phường Trung Mỹ Tây</p>
+    <p class="small">Xin cảm ơn quý cô bác, anh chị, đoàn viên, hội viên và học sinh đã cùng tìm hiểu, lan tỏa niềm tự hào về Thành phố Hồ Chí Minh.</p>
+    <div class="source">
+      <b>Nguồn tham khảo:</b>
+      <a href="https://thuvienphapluat.vn/van-ban/bo-may-hanh-chinh/nghi-quyet-chinh-thuc-dat-ten-thanh-pho-sai-gon-gia-dinh-la-thanh-pho-ho-chi-minh-42737.aspx" target="_blank">Nghị quyết đổi tên Thành phố Sài Gòn – Gia Định thành Thành phố Hồ Chí Minh</a>
+      <a href="https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-3-CP-thanh-lap-quan-Thu-Duc-quan-2-quan-7-quan-9-quan-12-va-thanh-lap-cac-phuong-thuoc-quan-moi-Thanh-pho-Ho-Chi-Minh-40319.aspx" target="_blank">Nghị định 03-CP năm 1997</a>
+      <a href="https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-1685-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-thanh-pho-ho-chi-minh-nam-2025-119250616211341304.htm" target="_blank">Nghị quyết 1685/NQ-UBTVQH15 năm 2025</a>
+      <a href="https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-31-nq-tw-cua-bo-chinh-tri-ve-phat-trien-tphcm-119230102214718968.htm" target="_blank">Nghị quyết 31-NQ/TW</a>
+    </div>
+  </div>
+</footer>
+
+<button class="top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+</body>
+</html>
